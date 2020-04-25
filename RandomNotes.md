@@ -17,8 +17,9 @@ At time *t* :
   Thus, those "uncertain" actions could be chosen more to confirm whether they could be of more value than the current "certain" action. 
   Hence, the explore/exploit tradeoff, which also depends on the number of remaining steps *t*.
   
-  # Markov Decision Processes (MDPs)
-  Components of an MDP :
+  
+# Markov Decision Processes (MDPs)
+### Components of an MDP :
    - Set of all states
    - Set of all actions
    - Set of all rewards
