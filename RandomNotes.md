@@ -47,8 +47,5 @@ __choosing how to assign rewards__ : Robot trying to solve a maze,
     
  __discount factor (![\gamma](https://render.githubusercontent.com/render/math?math=%5Cgamma))__ : 
 In the context of RL, at any state, the idea is to maximize future rewards (`expected return`). While we try to estimate the return, we want to discount future rewards based on how far into the future it is, thus having a more realistic estimate of `return`, as we can't guanrantee the future reward that we estimate now.  
-
-`return`, 
-![G(t) = \sum^{\infty}_{\tau=0} \gamma^\tau R(t+\tau+1)](https://render.githubusercontent.com/render/math?math=G(t)%20%3D%20%5Csum%5E%7B%5Cinfty%7D_%7B%5Ctau%3D0%7D%20%5Cgamma%5E%5Ctau%20R(t%2B%5Ctau%2B1))
-
-
+ 
+![return, G(t) = \sum^{\infty}_{\tau=0} \gamma^\tau R(t+\tau+1)](https://render.githubusercontent.com/render/math?math=return%2C%20G(t)%20%3D%20%5Csum%5E%7B%5Cinfty%7D_%7B%5Ctau%3D0%7D%20%5Cgamma%5E%5Ctau%20R(t%2B%5Ctau%2B1))
