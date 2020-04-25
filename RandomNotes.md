@@ -45,5 +45,4 @@ __choosing how to assign rewards__ : Robot trying to solve a maze,
     p[s(t+1),r(t+1) | s(t),r(t), s(t-1),r(t-1), ... , s(1),r(1)] = p[s(t+1),r(t+1) | s(t),r(t)]
     ```
     
- __discount factor__ : 
- ``` 
+ __discount factor (γ)__ : 
