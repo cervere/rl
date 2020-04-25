@@ -40,8 +40,7 @@ __choosing how to assign rewards__ : Robot trying to solve a maze,
   - not all environments are deterministic
   - reading of the state can be imperfect
   - may only reflect partial knowledge
-  
-   Markov assumption (first-order Markov)
-  ```
-  p[s(t+1),r(t+1) | s(t),r(t), s(t-1),r(t-1), ... , s(1),r(1)] = p[s(t+1),r(t+1) | s(t),r(t)]
-  ```
+  - Markov assumption (first-order Markov)
+    ```
+    p[s(t+1),r(t+1) | s(t),r(t), s(t-1),r(t-1), ... , s(1),r(1)] = p[s(t+1),r(t+1) | s(t),r(t)]
+    ```
