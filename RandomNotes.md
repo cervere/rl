@@ -1,6 +1,6 @@
-Random Notes
+# Diverse Notes
 
-# Explore vs Exploit
+## Explore vs Exploit
 *k* - actions, *t* - timesteps
 
 At time *t* :
@@ -18,7 +18,7 @@ At time *t* :
   Hence, the explore/exploit tradeoff, which also depends on the number of remaining steps *t*.
   
   
-# Markov Decision Processes (MDPs)
+## Markov Decision Processes (MDPs)
 ### Components of an MDP :
    - Set of all states
    - Set of all actions
@@ -41,7 +41,7 @@ __choosing how to assign rewards__ : Robot trying to solve a maze,
   - reading of the state can be imperfect
   - may only reflect partial knowledge
   
-  Markov assumption (first-order Markov)
+   Markov assumption (first-order Markov)
   ```
   p[s(t+1),r(t+1) | s(t),r(t), s(t-1),r(t-1), ... , s(1),r(1)] = p[s(t+1),r(t+1) | s(t),r(t)]
   ```
